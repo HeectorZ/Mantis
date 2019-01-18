@@ -1,0 +1,11 @@
+operadores boolean
+
+&&(and) retorna un valor de true solo cuando ambas expresiones son true      System.out.println(5<6 && 8<9);
+||(or) retorna un valor de true cuando alguna expresion de 2 es verdadera  System.out.println(9<15 || 10>18);
+!(not) retorna lo contrario de la expresion puesta, regresa false, si la expresión es true, y si la expresion es true regresa un false  	System.out.println(!false);
+
+The precedence of each Boolean operator is as follows:
+
+! is evaluated first
+&& is evaluated second
+|| is evaluated third

@@ -1,0 +1,61 @@
+Git se divide en 3 partes
+
+working directory Hacer cambio a los archivos, adiciones, borrar modificar
+
+staging area Los archivos estan listos para hacer commit "subirse"
+
+Repository los cambios son guardados al repositorio como un commit
+
+
+COMANDOS GIT
+git init: para inicializar 
+
+git status, para verificar el estatus de los cambios actual de los archivos
+
+git add nombre_archivo para añadir el archivo del directorio al staging area
+
+git diff nombre_archivo para ver las diferencias entre el archivo en el directorio de trabajo y la staging area
+
+git commit guarda permanentemente los cambios del staging area al repositorio
+
+la opcion de -m en el commit es seguida de un mensaje por ejemplo
+
+git commit -m "La primera subida de archivo!"
+
+git log para ver el historial de commits cronologicamente
+
+git show HEAD la salida de este comando muestra todo del comando git log más todos los cambios que fueron hechos en el commit
+
+git checkout HEAD nombre_archivo reestablece el archivo en el directorio de trabajo a como estaba exactamente cuando se hizo el ultimo commit
+
+git add nombre_archivo1 nombre_archivo2 se pueden añadir dos archivos o más al staging area
+
+git reset HEAD nombre_archivo comando para quitar el archivo del staging area, el comando no modifica ni borra ningun cambio realizado en el archivo
+
+git reset commit_SHA permite regresar a la parte en que algo salio mal funciona usando los primeros 7 caracteres del commit, se tiene que hacer un log para sacar los caracteres del commit
+si el log de commit es 5d692065cf51a2f50ea8e7b19b5a7ae512f633ba, el comando seria 
+git reset 5d69206
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PARA PROGRAMACION
+aritmetica->algebra->geometria->trigonometria. 

@@ -1,0 +1,20 @@
+git branch, para saber en que rama de Git se esta, el asterisco indica el nombre de la rama
+
+git branch new_branch para crear una nueva rama
+
+git checkout nombre_rama para posicionarme en la rama que quiero
+
+git merge nombre_rama    sirve para incluir los cambios hechos en la rama secundaria a la rama "maestra" (o cualquier rama creo) 
+para eso tengo que estar posicionado en la rama maestra y desde ahi ejecutar el comando
+
+git branch -d branch_name para borrar alguna ramade git
+
+git clone remote_location clone_name clonar un proyecto 
+*remote_location le dice a git a donde ir para encontrar el archivo, puede ser un una direccion web o filepath /Users/teachers/Documents/some-remote
+*clone_name es el nombre que se le da a la carpeta en donde git va a clonar el repositorio
+
+git remote -v lista los proyectos de git remotos
+
+git fetch para verificar si se hicieron cambios al remoto y obtener los cambios que se hayan realizado
+
+git push origin nombre_rama  sube la rama al repositorio remoto de origen
